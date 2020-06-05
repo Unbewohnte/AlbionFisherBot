@@ -65,7 +65,7 @@ while True:
 			catch = True
 
 		while catch == True:
-			window = ImageGrab.grab((837,532,1078,567)) #This is where the mini-game appear 
+			window = ImageGrab.grab((837,532,1078,567)) #This is where the mini-game appear (FullHD monitor)
 			ggmme = pg.locate('obrezka.png',window, confidence = 0.5)
 			if ggmme != None:
 				x = ggmme[0]
