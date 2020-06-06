@@ -92,3 +92,5 @@ while True:
 
 pass
 
+# Copyright (c) 2020 Unbewohnte
+
