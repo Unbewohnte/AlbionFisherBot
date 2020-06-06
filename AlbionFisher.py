@@ -9,11 +9,13 @@ import time
 x1,y1 = 265,350
 x2,y2 = 408,495
 
+x,y = 523,445
+
 meanvalue = 4.8  #You need to know the optimal mean value to actually make it work
 
 
 def zakid():
-	pg.moveTo(x = 523,y = 445, duration = 0.5)
+	pg.moveTo(x , y, duration = 0.5) 
 	pg.mouseDown()
 	time.sleep(1)
 	pg.mouseUp()
@@ -44,7 +46,7 @@ while True:
 			print('mean == 0, ending the programm')
 			break
 			
-		if poplavok_place_array_mean >= float(meanvalue2) and poplavok_place_array_mean != 0:
+		if poplavok_place_array_mean >= float(meanvalue) and poplavok_place_array_mean != 0:
 			time.sleep(0.1)
 			pg.click(clicks = 2)
 			arrayEND = True
