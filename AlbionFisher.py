@@ -9,7 +9,7 @@ import time
 x1,y1 = 265,350
 x2,y2 = 408,495
 
-x,y = 523,445
+x,y = 523,445 #This is where you want to throw your float 
 
 meanvalue = 4.8  #You need to know the optimal mean value to actually make it work
 
@@ -43,7 +43,7 @@ while True:
 		time.sleep(0.3)
 		print('mean = '+ str(poplavok_place_array_mean))
 		if poplavok_place_array_mean == 0:
-			print('mean == 0, ending the programm')
+			print('mean == 0, ending the program')
 			break
 			
 		if poplavok_place_array_mean >= float(meanvalue) and poplavok_place_array_mean != 0:
