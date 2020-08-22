@@ -14,19 +14,15 @@ x,y = 523,445 #This is where you want to throw your float
 meanvalue = 4.8  #You need to know the optimal mean value to actually make it work
 
 
-def zakid():
-	pg.moveTo(x , y, duration = 0.5) 
-	pg.mouseDown()
-	time.sleep(1)
-	pg.mouseUp()
-
-
 x = int()
 while True:
 	arrayEND = False
 
 	time.sleep(3.5)
-	zakid()
+	pg.moveTo(x , y, duration = 0.5) 
+	pg.mouseDown()
+	time.sleep(1)
+	pg.mouseUp()
 	time.sleep(1.5)
 	print('zakinul')
 	time.sleep(0.5)
